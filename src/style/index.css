@@ -1,0 +1,2096 @@
+ .el-footer {
+   background-color: #B3C0D1;
+   color: #333;
+   text-align: center;
+   line-height: 60px;
+ }
+
+ .el-aside {
+   background-color: #D3DCE6;
+   color: #333;
+   text-align: center;
+   line-height: 200px;
+ }
+
+ .el-loading-spinner {
+   font-size: 30px;
+ }
+
+ .el-main {
+   background-color: #E9EEF3;
+   color: #333;
+   text-align: center;
+   line-height: 160px;
+ }
+
+ body>.el-container {
+   margin-bottom: 40px;
+ }
+
+ .el-container:nth-child(5) .el-aside,
+ .el-container:nth-child(6) .el-aside {
+   line-height: 260px;
+ }
+
+ .el-container:nth-child(7) .el-aside {
+   line-height: 320px;
+ }
+
+ .el-row {
+   margin-bottom: 20px;
+
+ }
+
+ .el-col {
+   border-radius: 4px;
+ }
+
+ .bg-purple-dark {
+   background: #99a9bf;
+ }
+
+ .bg-purple {
+   background: #d3dce6;
+ }
+
+ .bg-purple-light {
+   background: #e5e9f2;
+ }
+
+ .grid-content {
+   border-radius: 4px;
+   min-height: 36px;
+ }
+
+ .row-bg {
+   padding: 10px 0;
+   background-color: #f9fafc;
+ }
+
+ .DayPicker {
+   display: inline-block;
+   font-size: 1rem
+ }
+
+ .DayPicker-wrapper {
+   position: relative;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   padding-bottom: 1em;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none
+ }
+
+ .DayPicker-Months {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center
+ }
+
+ .DayPicker-Month {
+   display: table;
+   margin: 1em 1em 0;
+   border-spacing: 0;
+   border-collapse: collapse;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none
+ }
+
+ .DayPicker-NavButton {
+   position: absolute;
+   top: 1em;
+   right: 1.5em;
+   left: auto;
+   display: inline-block;
+   margin-top: 2px;
+   width: 1.25em;
+   height: 1.25em;
+   background-position: 50%;
+   background-size: 50%;
+   background-repeat: no-repeat;
+   color: #8b9898;
+   cursor: pointer
+ }
+
+ .DayPicker-NavButton:hover {
+   opacity: .8
+ }
+
+ .DayPicker-NavButton--prev {
+   margin-right: 1.5em;
+   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAwCAYAAAB5R9gVAAAABGdBTUEAALGPC/xhBQAAAVVJREFUWAnN2G0KgjAYwPHpGfRkaZeqvgQaK+hY3SUHrk1YzNLay/OiEFp92I+/Mp2F2Mh2lLISWnflFjzH263RQjzMZ19wgs73ez0o1WmtW+dgA01VxrE3p6l2GLsnBy1VYQOtVSEH/atCCgqpQgKKqYIOiq2CBkqtggLKqQIKgqgCBjpJ2Y5CdJ+zrT9A7HHSTA1dxUdHgzCqJIEwq0SDsKsEg6iqBIEoq/wEcVRZBXFV+QJxV5mBtlDFB5VjYTaGZ2sf4R9PM7U9ZU+lLuaetPP/5Die3ToO1+u+MKtHs06qODB2zBnI/jBd4MPQm1VkY79Tb18gB+C62FdBFsZR6yeIo1YQiLJWMIiqVjQIu1YSCLNWFgijVjYIuhYYCKoWKAiiFgoopxYaKLUWOii2FgkophYp6F3r42W5A9s9OcgNvva8xQaysKXlFytoqdYmQH6tF3toSUo0INq9AAAAAElFTkSuQmCC")
+ }
+
+ .DayPicker-NavButton--next {
+   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAwCAYAAAB5R9gVAAAABGdBTUEAALGPC/xhBQAAAXRJREFUWAnN119ugjAcwPHWzJ1gnmxzB/BBE0n24m4xfNkTaOL7wOtsl3AXMMb+Vjaa1BG00N8fSEibPpAP3xAKKs2yjzTPH9RAjhEo9WzPr/Vm8zgE0+gXATAxxuxtqeJ9t5tIwv5AtQAApsfT6TPdbp+kUBcgVwvO51KqVhMkXKsVJFXrOkigVhCIs1Y4iKlWZxB1rX4gwlpRIIpa8SDkWmggrFq4IIRaJKCYWnSgnrXIQV1r8YD+1Vrn+bReagysIFfLABRt31v8oBu1xEBttfRbltmfjgEcWh9snUS2kNdBK6WN1vrOWxObWsz+fjxevsxmB1GQDfINWiev83nhaoiB/CoOU438oPrhXS0WpQ9xc1ZQWxWHqUYe0I0qrKCQKjygDlXIQV2r0IF6ViEBxVTBBSFUQQNhVYkHIVeJAtkNsbQ7c1LtzP6FsObhb2rCKv7NBIGoq4SDmKoEgTirXAcJVGkFSVVpgoSrXICGUMUH/QBZNSUy5XWUhwAAAABJRU5ErkJggg==")
+ }
+
+ .DayPicker-NavButton--interactionDisabled {
+   display: none
+ }
+
+ .DayPicker-Caption {
+   display: table-caption;
+   margin-bottom: .5em;
+   padding: 0 .5em;
+   text-align: left
+ }
+
+ .DayPicker-Caption>div {
+   font-weight: 500;
+   font-size: 1.15em
+ }
+
+ .DayPicker-Weekdays {
+   display: table-header-group;
+   margin-top: 1em
+ }
+
+ .DayPicker-WeekdaysRow {
+   display: table-row
+ }
+
+ .DayPicker-Weekday {
+   display: table-cell;
+   padding: .5em;
+   color: #8b9898;
+   text-align: center;
+   font-size: .875em
+ }
+
+ .DayPicker-Weekday abbr[title] {
+   border-bottom: none;
+   text-decoration: none
+ }
+
+ .DayPicker-Body {
+   display: table-row-group
+ }
+
+ .DayPicker-Week {
+   display: table-row
+ }
+
+ .DayPicker-Day {
+   border-radius: 50%;
+   text-align: center
+ }
+
+ .DayPicker-Day,
+ .DayPicker-WeekNumber {
+   display: table-cell;
+   padding: .5em;
+   vertical-align: middle;
+   cursor: pointer
+ }
+
+ .DayPicker-WeekNumber {
+   min-width: 1em;
+   border-right: 1px solid #eaecec;
+   color: #8b9898;
+   text-align: right;
+   font-size: .75em
+ }
+
+ .DayPicker--interactionDisabled .DayPicker-Day {
+   cursor: default
+ }
+
+ .DayPicker-Footer {
+   padding-top: .5em
+ }
+
+ .DayPicker-TodayButton {
+   border: none;
+   background-color: transparent;
+   background-image: none;
+   box-shadow: none;
+   color: #4a90e2;
+   font-size: .875em;
+   cursor: pointer
+ }
+
+ .DayPicker-Day--today {
+   color: #d0021b;
+   font-weight: 700
+ }
+
+ .DayPicker-Day--outside {
+   color: #8b9898;
+   cursor: default
+ }
+
+ .DayPicker-Day--disabled {
+   color: #dce0e0;
+   cursor: default
+ }
+
+ .DayPicker-Day--sunday {
+   background-color: #f7f8f8
+ }
+
+ .DayPicker-Day--sunday:not(.DayPicker-Day--today) {
+   color: #dce0e0
+ }
+
+ .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+   position: relative;
+   background-color: #4a90e2;
+   color: #f0f8ff
+ }
+
+ .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside):hover {
+   background-color: #51a0fa
+ }
+
+ .DayPicker:not(.DayPicker--interactionDisabled) .DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover {
+   background-color: #f0f8ff
+ }
+
+ .DayPickerInput {
+   display: inline-block
+ }
+
+ .DayPickerInput-OverlayWrapper {
+   position: relative
+ }
+
+ .DayPickerInput-Overlay {
+   position: absolute;
+   left: 0;
+   z-index: 1;
+   background: #fff;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, .15)
+ }
+
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 300;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnPKreSxf6TF0.woff2) format('woff2');
+   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+ }
+
+ /* cyrillic */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 300;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnPKreQhf6TF0.woff2) format('woff2');
+   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+ }
+
+ /* greek-ext */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 300;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnPKreShf6TF0.woff2) format('woff2');
+   unicode-range: U+1F00-1FFF;
+ }
+
+ /* greek */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 300;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnPKreRRf6TF0.woff2) format('woff2');
+   unicode-range: U+0370-03FF;
+ }
+
+ /* vietnamese */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 300;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnPKreSRf6TF0.woff2) format('woff2');
+   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+ }
+
+ /* latin-ext */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 300;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnPKreSBf6TF0.woff2) format('woff2');
+   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+ }
+
+ /* latin */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 300;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnPKreRhf6.woff2) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+ }
+
+ /* cyrillic-ext */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9E4kDNxMZdWfMOD5VvmojLeTY.woff2) format('woff2');
+   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+ }
+
+ /* cyrillic */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9E4kDNxMZdWfMOD5Vvk4jLeTY.woff2) format('woff2');
+   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+ }
+
+ /* greek-ext */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9E4kDNxMZdWfMOD5Vvm4jLeTY.woff2) format('woff2');
+   unicode-range: U+1F00-1FFF;
+ }
+
+ /* greek */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9E4kDNxMZdWfMOD5VvlIjLeTY.woff2) format('woff2');
+   unicode-range: U+0370-03FF;
+ }
+
+ /* vietnamese */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9E4kDNxMZdWfMOD5VvmIjLeTY.woff2) format('woff2');
+   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+ }
+
+ /* latin-ext */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9E4kDNxMZdWfMOD5VvmYjLeTY.woff2) format('woff2');
+   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+ }
+
+ /* latin */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9E4kDNxMZdWfMOD5Vvl4jL.woff2) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+ }
+
+ /* cyrillic-ext */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveSxf6TF0.woff2) format('woff2');
+   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+ }
+
+ /* cyrillic */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveQhf6TF0.woff2) format('woff2');
+   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+ }
+
+ /* greek-ext */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveShf6TF0.woff2) format('woff2');
+   unicode-range: U+1F00-1FFF;
+ }
+
+ /* greek */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveRRf6TF0.woff2) format('woff2');
+   unicode-range: U+0370-03FF;
+ }
+
+ /* vietnamese */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveSRf6TF0.woff2) format('woff2');
+   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+ }
+
+ /* latin-ext */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveSBf6TF0.woff2) format('woff2');
+   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+ }
+
+ /* latin */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveRhf6.woff2) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+ }
+
+ /* cyrillic-ext */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnSKzeSxf6TF0.woff2) format('woff2');
+   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+ }
+
+ /* cyrillic */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnSKzeQhf6TF0.woff2) format('woff2');
+   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+ }
+
+ /* greek-ext */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnSKzeShf6TF0.woff2) format('woff2');
+   unicode-range: U+1F00-1FFF;
+ }
+
+ /* greek */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnSKzeRRf6TF0.woff2) format('woff2');
+   unicode-range: U+0370-03FF;
+ }
+
+ /* vietnamese */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnSKzeSRf6TF0.woff2) format('woff2');
+   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+ }
+
+ /* latin-ext */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnSKzeSBf6TF0.woff2) format('woff2');
+   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+ }
+
+ /* latin */
+ @font-face {
+   font-family: 'Fira Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnSKzeRhf6.woff2) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+ }
+
+ a,
+ abbr,
+ acronym,
+ address,
+ applet,
+ article,
+ aside,
+ audio,
+ b,
+ big,
+ blockquote,
+ body,
+ canvas,
+ caption,
+ center,
+ cite,
+ code,
+ dd,
+ del,
+ details,
+ dfn,
+ div,
+ dl,
+ dt,
+ em,
+ embed,
+ fieldset,
+ figcaption,
+ figure,
+ footer,
+ form,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ header,
+ hgroup,
+ html,
+ i,
+ iframe,
+ img,
+ ins,
+ kbd,
+ label,
+ legend,
+ li,
+ mark,
+ menu,
+ nav,
+ object,
+ ol,
+ output,
+ p,
+ pre,
+ q,
+ ruby,
+ s,
+ samp,
+ section,
+ small,
+ span,
+ strike,
+ strong,
+ sub,
+ summary,
+ sup,
+ table,
+ tbody,
+ td,
+ tfoot,
+ th,
+ thead,
+ time,
+ tr,
+ tt,
+ u,
+ ul,
+ var,
+ video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+   box-sizing: border-box
+ }
+
+ article,
+ aside,
+ details,
+ figcaption,
+ figure,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ section {
+   display: block
+ }
+
+ body {
+   line-height: 1
+ }
+
+ ol,
+ ul {
+   list-style: none
+ }
+
+ blockquote,
+ q {
+   quotes: none
+ }
+
+ blockquote:after,
+ blockquote:before,
+ q:after,
+ q:before {
+   content: "";
+   content: none
+ }
+
+ table {
+   border-collapse: collapse;
+   border-spacing: 0
+ }
+
+ input,
+ select,
+ textarea {
+   box-sizing: border-box
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   margin-bottom: .5rem
+ }
+
+ .container,
+ .flex .flex__col,
+ .flex .flex__col--1,
+ .flex .flex__col--2,
+ .flex .flex__col--3,
+ .flex .flex__col--4,
+ .flex .flex__col--5,
+ .flex .flex__col--6,
+ .flex .flex__col--7,
+ .flex .flex__col--8,
+ .flex .flex__col--9,
+ .flex .flex__col--10,
+ .flex .flex__col--11,
+ .flex .flex__col--12 {
+   padding-left: 15px;
+   padding-right: 15px
+ }
+
+ @media screen and (max-width:992px) {
+
+   .container,
+   .flex .flex__col,
+   .flex .flex__col--1,
+   .flex .flex__col--2,
+   .flex .flex__col--3,
+   .flex .flex__col--4,
+   .flex .flex__col--5,
+   .flex .flex__col--6,
+   .flex .flex__col--7,
+   .flex .flex__col--8,
+   .flex .flex__col--9,
+   .flex .flex__col--10,
+   .flex .flex__col--11,
+   .flex .flex__col--12 {
+     padding-left: 10px;
+     padding-right: 10px
+   }
+ }
+
+ html {
+   font-size: 16px;
+   color: #202020
+ }
+
+ @media screen and (max-width:768px) {
+   html {
+     font-size: 14px
+   }
+ }
+
+ body {
+   background-color: #fff;
+   font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+   font-size: 1rem;
+   line-height: 1.25em;
+   font-weight: 400;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale
+ }
+
+ main {
+   position: relative
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-weight: 600;
+   line-height: 1.125em;
+   margin-bottom: 0
+ }
+
+ h1 {
+   font-size: 3.5rem
+ }
+
+ h2 {
+   font-size: 3rem
+ }
+
+ h3 {
+   font-size: 2.5rem
+ }
+
+ h4 {
+   font-size: 2.25rem
+ }
+
+ h5 {
+   font-size: 1.875rem
+ }
+
+ h6 {
+   font-size: 1.5rem
+ }
+
+ strong {
+   font-weight: 600
+ }
+
+ .text--left {
+   text-align: left
+ }
+
+ .text--right {
+   text-align: right
+ }
+
+ .text--center {
+   text-align: center
+ }
+
+ .flex {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap
+ }
+
+ .flex--ai-center {
+   -webkit-align-items: center;
+   align-items: center
+ }
+
+ .flex--ai-start {
+   -webkit-align-items: flex-start;
+   align-items: flex-start
+ }
+
+ .flex--ai-end {
+   -webkit-align-items: flex-end;
+   align-items: flex-end
+ }
+
+ .flex--jc-sbetween {
+   -webkit-justify-content: space-between;
+   justify-content: space-between
+ }
+
+ .flex--jc-around {
+   -webkit-justify-content: space-around;
+   justify-content: space-around
+ }
+
+ .flex--jc-center {
+   -webkit-justify-content: center;
+   justify-content: center
+ }
+
+ .flex--jc-end {
+   -webkit-justify-content: flex-end;
+   justify-content: flex-end
+ }
+
+ .flex--dir-column {
+   -webkit-flex-direction: column;
+   flex-direction: column
+ }
+
+ .flex--row,
+ .flex--wrap {
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap
+ }
+
+ .flex--row {
+   margin-left: -15px;
+   margin-right: -15px
+ }
+
+ @media screen and (max-width:992px) {
+   .flex--row {
+     margin-left: -10px;
+     margin-right: -10px
+   }
+ }
+
+ .flex .flex__col,
+ .flex .flex__col--1,
+ .flex .flex__col--2,
+ .flex .flex__col--3,
+ .flex .flex__col--4,
+ .flex .flex__col--5,
+ .flex .flex__col--6,
+ .flex .flex__col--7,
+ .flex .flex__col--8,
+ .flex .flex__col--9,
+ .flex .flex__col--10,
+ .flex .flex__col--11,
+ .flex .flex__col--12 {
+   margin-bottom: 15px
+ }
+
+ .flex__col--12 {
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   width: 100%
+ }
+
+ .flex__col--11 {
+   -webkit-flex-basis: 90%;
+   flex-basis: 90%;
+   width: 90%
+ }
+
+ .flex__col--10 {
+   -webkit-flex-basis: 83.33%;
+   flex-basis: 83.33%;
+   width: 83.33%
+ }
+
+ .flex__col--9 {
+   -webkit-flex-basis: 75%;
+   flex-basis: 75%;
+   width: 75%
+ }
+
+ @media screen and (max-width:1200px) {
+   .flex__col--9 {
+     -webkit-flex-basis: 100%;
+     flex-basis: 100%;
+     width: 100%
+   }
+ }
+
+ .flex__col--8 {
+   -webkit-flex-basis: 66.66%;
+   flex-basis: 66.66%;
+   width: 66.66%
+ }
+
+ @media screen and (max-width:992px) {
+   .flex__col--8 {
+     -webkit-flex-basis: 50%;
+     flex-basis: 50%;
+     width: 50%
+   }
+ }
+
+ @media screen and (max-width:768px) {
+   .flex__col--8 {
+     -webkit-flex-basis: 100%;
+     flex-basis: 100%;
+     width: 100%
+   }
+ }
+
+ .flex__col--7 {
+   -webkit-flex-basis: 58.33%;
+   flex-basis: 58.33%;
+   width: 58.33%
+ }
+
+ @media screen and (max-width:992px) {
+   .flex__col--7 {
+     -webkit-flex-basis: 100%;
+     flex-basis: 100%;
+     width: 100%
+   }
+ }
+
+ .flex__col--6 {
+   -webkit-flex-basis: 50%;
+   flex-basis: 50%;
+   width: 50%
+ }
+
+ @media screen and (max-width:992px) {
+   .flex__col--6 {
+     -webkit-flex-basis: 100%;
+     flex-basis: 100%;
+     width: 100%
+   }
+ }
+
+ .flex__col--5 {
+   -webkit-flex-basis: 41.66%;
+   flex-basis: 41.66%;
+   width: 41.66%
+ }
+
+ @media screen and (max-width:992px) {
+   .flex__col--5 {
+     -webkit-flex-basis: 100%;
+     flex-basis: 100%;
+     width: 100%
+   }
+ }
+
+ .flex__col--4 {
+   -webkit-flex-basis: 33.33%;
+   flex-basis: 33.33%;
+   width: 33.33%
+ }
+
+ @media screen and (max-width:992px) {
+   .flex__col--4 {
+     -webkit-flex-basis: 50%;
+     flex-basis: 50%;
+     width: 50%
+   }
+ }
+
+ @media screen and (max-width:768px) {
+   .flex__col--4 {
+     -webkit-flex-basis: 100%;
+     flex-basis: 100%;
+     width: 100%
+   }
+ }
+
+ .flex__col--3 {
+   -webkit-flex-basis: 25%;
+   flex-basis: 25%;
+   width: 25%
+ }
+
+ @media screen and (max-width:992px) {
+   .flex__col--3 {
+     -webkit-flex-basis: 50%;
+     flex-basis: 50%;
+     width: 50%
+   }
+ }
+
+ @media screen and (max-width:768px) {
+   .flex__col--3 {
+     -webkit-flex-basis: 100%;
+     flex-basis: 100%;
+     width: 100%
+   }
+ }
+
+ .flex__col--2 {
+   -webkit-flex-basis: 16.66%;
+   flex-basis: 16.66%;
+   width: 16.66%
+ }
+
+ .flex__col--1 {
+   -webkit-flex-basis: 10%;
+   flex-basis: 10%;
+   width: 10%
+ }
+
+ .flex__col {
+   -webkit-flex: 1 1;
+   flex: 1 1
+ }
+
+ .flex__col--full {
+   margin-bottom: 0 !important;
+   padding-left: 0 !important;
+   padding-right: 0 !important
+ }
+
+ .flex__content {
+   margin-bottom: 20px
+ }
+
+ .flex__content__image {
+   -webkit-flex-basis: 250px;
+   flex-basis: 250px;
+   margin-right: 20px
+ }
+
+ .flex__content__image img {
+   width: 100%
+ }
+
+ @media screen and (max-width:768px) {
+   .flex__content__image {
+     -webkit-flex-basis: 100%;
+     flex-basis: 100%
+   }
+ }
+
+ .flex__content__text {
+   -webkit-flex: 1 1;
+   flex: 1 1;
+   font-size: 1.125rem;
+   line-height: 1.5em
+ }
+
+ .flex__content__text p {
+   margin-bottom: 20px
+ }
+
+ .container {
+   width: 100%;
+   max-width: 1366px;
+   margin-left: auto;
+   margin-right: auto
+ }
+
+ a:focus,
+ button:focus,
+ input:focus {
+   outline: none
+ }
+
+ svg {
+   height: 1.25rem;
+   vertical-align: middle;
+   margin-top: -2px
+ }
+
+ svg path {
+   fill: #202020
+ }
+
+ @-webkit-keyframes loader-fadeout {
+   0% {
+     z-index: 500;
+     opacity: 1
+   }
+
+   90% {
+     opacity: 0
+   }
+
+   to {
+     z-index: -1
+   }
+ }
+
+ @keyframes loader-fadeout {
+   0% {
+     z-index: 500;
+     opacity: 1
+   }
+
+   90% {
+     opacity: 0
+   }
+
+   to {
+     z-index: -1
+   }
+ }
+
+ .page-bg {
+   position: fixed;
+   bottom: -40%;
+   left: -20%;
+   width: 1300px;
+   height: 1000px;
+   background-color: #4a90e2;
+   border-radius: 50%;
+   opacity: .08;
+   z-index: 0;
+   -webkit-transform: rotate(30deg);
+   transform: rotate(30deg)
+ }
+
+ .loader {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 500;
+   opacity: 1;
+   width: 100%;
+   height: 100%;
+   background-color: #fff
+ }
+
+ .loader__text {
+   font-weight: 300;
+   padding-top: 20px
+ }
+
+ .loader--transparent {
+   background: hsla(0, 0%, 100%, .8)
+ }
+
+ .loader--loaded {
+   z-index: -1;
+   opacity: 0;
+   -webkit-animation: loader-fadeout 1s;
+   animation: loader-fadeout 1s
+ }
+
+ .loader--no-effects {
+   -webkit-animation: none;
+   animation: none
+ }
+
+ .form__group {
+   margin-bottom: 20px
+ }
+
+ .form__input {
+   font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+   font-weight: 500;
+   color: #202020;
+   font-size: 1.375rem;
+   height: 5rem;
+   line-height: 5rem;
+   border: 1px solid #aeaeae;
+   border-radius: 5px;
+   width: 100%;
+   padding-left: 30px;
+   padding-right: 30px;
+   transition: all .3s ease-out
+ }
+
+ .form__input:focus,
+ .form__input:hover {
+   border: 2px solid #202020
+ }
+
+ .form__picker .css-1pahdxg-control,
+ .form__picker .css-yk16xz-control {
+   height: 5rem;
+   border: 1px solid #aeaeae !important;
+   border-radius: 5px;
+   padding-left: 20px;
+   padding-right: 0
+ }
+
+ .form__picker .css-g1d714-ValueContainer {
+   font-size: 1.375rem;
+   font-weight: 500
+ }
+
+ .form__picker .css-1uccc91-singleValue {
+   height: 1.375rem;
+   font-size: 1.375rem;
+   font-weight: 500
+ }
+
+ .form__picker .css-1okebmr-indicatorSeparator {
+   margin-top: 15px;
+   margin-bottom: 15px
+ }
+
+ .form__picker svg {
+   height: 30px;
+   width: 30px
+ }
+
+ .button {
+   font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+   height: 5.625rem;
+   min-width: 380px;
+   border-radius: 5px;
+   font-size: 1.375rem;
+   line-height: 5.625rem;
+   font-weight: 600;
+   border: none;
+   cursor: pointer
+ }
+
+ @media screen and (max-width:768px) {
+   .button {
+     min-width: 200px;
+     width: 100%
+   }
+ }
+
+ .button__icon path {
+   fill: #4a90e2
+ }
+
+ .button--bg {
+   position: relative;
+   background-color: #4a90e2;
+   color: #fff;
+   text-transform: uppercase
+ }
+
+ .button--bg--success {
+   background-color: #3da231
+ }
+
+ .button--bg:before {
+   content: " ";
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background: rgba(0, 0, 0, .2);
+   opacity: 0;
+   transition: all .4s ease
+ }
+
+ .button--bg:focus:before,
+ .button--bg:hover:before {
+   opacity: 1
+ }
+
+ .button--outline {
+   background: transparent;
+   border: 1px solid #4a90e2;
+   color: #4a90e2;
+   text-transform: uppercase;
+   transition: all .4s ease
+ }
+
+ .button--outline:focus,
+ .button--outline:hover {
+   background-color: #4a90e2;
+   color: #fff
+ }
+
+ .button--link {
+   height: 1.375rem;
+   line-height: 1.5rem;
+   background: none;
+   font-size: 1.375rem;
+   font-weight: 500;
+   color: #4a90e2;
+   min-width: auto;
+   transition: all .4s ease;
+   margin-bottom: 20px
+ }
+
+ .button--link:focus,
+ .button--link:hover {
+   opacity: .7
+ }
+
+ .header {
+   position: relative;
+   overflow-x: hidden;
+   min-height: 200px
+ }
+
+ @media screen and (max-width:992px) {
+   .header {
+     padding-left: 10px;
+     padding-right: 10px
+   }
+ }
+
+ .header.hidden {
+   display: none
+ }
+
+ .header a {
+   color: #202020;
+   text-decoration: none
+ }
+
+ .header__bg {
+   position: absolute;
+   z-index: 0;
+   width: 1080px;
+   height: 1380px;
+   top: -1180px;
+   left: 50%;
+   margin-right: -50%;
+   -webkit-transform: translateX(-50%);
+   transform: translateX(-50%);
+   border-radius: 50%;
+ }
+
+ @media screen and (max-width:768px) {
+   .header__bg {
+     top: -1250px
+   }
+ }
+
+ .header__business {
+   position: relative;
+   z-index: 1;
+   padding-top: 30px;
+   padding-bottom: 10px
+ }
+
+ .header__business__name {
+   font-weight: 300;
+   text-transform: uppercase;
+   margin-top: 10px
+ }
+
+ @media screen and (max-width:992px) {
+   .header__business__name {
+     font-size: 2.75rem;
+     margin-bottom: 10px
+   }
+ }
+
+ .header__business__logo {
+   width: 250px;
+   height: 250px;
+
+   overflow: hidden;
+   margin-left: auto;
+   margin-right: auto
+ }
+
+ @media screen and (max-width:768px) {
+   .header__business__logo {
+     width: 150px;
+     height: 150px
+   }
+ }
+
+ .header__business__logo__image {
+   width: 250px;
+   height: 250px;
+   object-fit: cover;
+   object-position: center center
+ }
+
+ @media screen and (max-width:768px) {
+   .header__business__logo__image {
+     width: 150px;
+     height: 150px
+   }
+ }
+
+ .header__business__logo__text {
+   color: #202020;
+   line-height: 200px
+ }
+
+ .header__business__icon {
+   display: inline-block;
+   margin-right: 5px
+ }
+
+ .header__business__icon path {
+   fill: #F23FCA
+ }
+
+ .header__business__address {
+   font-weight: 500;
+   font-size: 1.25rem;
+   color: #F23FCA;
+   margin-bottom: 10px
+ }
+
+ .header__business__contact {
+   font-weight: 500;
+   font-size: 1rem;
+   color: #4a90e2
+ }
+
+ @media screen and (max-width:992px) {
+   .header__business__contact {
+     -webkit-flex-direction: column;
+     flex-direction: column
+   }
+ }
+
+ .header__business__contact--phone {
+   margin-right: 20px
+ }
+
+ .header__business__contact--email svg {
+   height: 1rem
+ }
+
+ .footer {
+   margin-top: 40px;
+   padding-top: 20px;
+   padding-bottom: 20px
+ }
+
+ .footer__text {
+   font-size: .875rem;
+   text-transform: uppercase
+ }
+
+ .main {
+   position: relative;
+   margin-top: 20px
+ }
+
+ .main__title {
+   color: #4a90e2
+ }
+
+ .appointment {
+   position: relative
+ }
+
+ .appointment__form {
+   margin-top: 30px;
+   margin-bottom: 40px
+ }
+
+ @media screen and (max-width:992px) {
+   .appointment__form {
+     margin-bottom: 20px
+   }
+ }
+
+ .appointment__form__title {
+   font-weight: 300;
+   margin-bottom: 20px
+ }
+
+ .appointment__form__note {
+   font-weight: 500;
+   font-size: 1.125rem;
+   margin-bottom: 10px
+ }
+
+ .appointment__form__date {
+   margin-bottom: 60px
+ }
+
+ .appointment__summary {
+   margin-top: 25px
+ }
+
+ .appointment__summary__header {
+   background-color: #4a90e2;
+   height: 70px;
+   border-radius: 5px 5px 0 0;
+   padding-left: 25px;
+   padding-right: 25px
+ }
+
+ @media screen and (max-width:768px) {
+   .appointment__summary__header {
+     height: 60px
+   }
+ }
+
+ .appointment__summary__header__title {
+   line-height: 70px;
+   color: #fff;
+   font-size: 1.5rem
+ }
+
+ @media screen and (max-width:768px) {
+   .appointment__summary__header__title {
+     line-height: 60px
+   }
+ }
+
+ .appointment__summary__body {
+   background-color: #fcfcfc;
+   min-height: 150px
+ }
+
+ .appointment__summary__footer {
+   border-top: 1px solid #4a90e2;
+   margin-left: 20px;
+   margin-right: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px
+ }
+
+ .appointment__summary__footer__title {
+   font-weight: 600;
+   text-transform: uppercase;
+   font-size: 1rem;
+   margin-bottom: 2px
+ }
+
+ .appointment__summary__footer__total {
+   color: #4a90e2
+ }
+
+ .appointment__summary__footer__disclaimer {
+   margin-top: 15px
+ }
+
+ .appointment__final {
+   margin-top: 40px
+ }
+
+ .appointment__final__thank {
+   font-weight: 300;
+   font-size: 4.125rem;
+   margin-bottom: 30px
+ }
+
+ @media screen and (max-width:992px) {
+   .appointment__final__thank {
+     font-size: 2.25rem
+   }
+ }
+
+ .appointment__final__reference {
+   font-weight: 600;
+   font-size: 1.25rem;
+   line-height: 3rem;
+   color: #4a90e2;
+   margin-bottom: 20px
+ }
+
+ .appointment__final__reference span {
+   display: block;
+   font-size: 5rem
+ }
+
+ @media screen and (max-width:768px) {
+   .appointment__final__reference span {
+     font-size: 4rem
+   }
+ }
+
+ .appointment__final__remarks {
+   color: #4a90e2;
+   font-weight: 400;
+   margin-bottom: 50px
+ }
+
+ @media screen and (max-width:992px) {
+   .appointment__final__remarks {
+     font-size: 1.5rem
+   }
+ }
+
+ .appointment__final__button {
+   margin-bottom: 20px
+ }
+
+ .appointment__error {
+   margin-top: 40px;
+   margin-bottom: 40px;
+   padding-left: 40px;
+   padding-right: 40px
+ }
+
+ .appointment__error__image {
+   max-width: 900px;
+   width: 100%
+ }
+
+ .service {
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px
+ }
+
+ .service__row {
+   margin-bottom: 20px
+ }
+
+ .service__header {
+   color: #62a5f1
+ }
+
+ .service__header h6 {
+   margin-bottom: 20px
+ }
+
+ @media screen and (max-width:992px) {
+   .service__header {
+     display: none
+   }
+ }
+
+ .service__remove {
+   text-align: left
+ }
+
+ @media screen and (max-width:768px) {
+   .service__remove {
+     text-align: center
+   }
+ }
+
+ .summary {
+   position: relative;
+   margin-bottom: 30px
+ }
+
+ .summary__date {
+   font-size: 1.25rem;
+   font-weight: 500;
+   padding: 20px 25px
+ }
+
+ .summary__services {
+   padding-bottom: 10px
+ }
+
+ .summary__services__item {
+   border-bottom: 1px solid #ececec;
+   margin-bottom: 20px;
+   margin-left: 25px;
+   padding-left: 5px;
+   margin-right: 25px;
+   padding-bottom: 20px
+ }
+
+ .summary__services__item__service {
+   font-size: 1.625rem;
+   font-weight: 600;
+   margin-bottom: 15px
+ }
+
+ .summary__services__item__info {
+   display: inline-block;
+   font-size: 1.375rem;
+   font-weight: 500;
+   margin-right: 20px
+ }
+
+ @media screen and (max-width:768px) {
+   .summary__services__item__info {
+     display: block;
+     font-weight: 400;
+     margin-right: 0;
+     margin-bottom: 5px
+   }
+ }
+
+ .summary__services__item:last-child {
+   border: none
+ }
+
+ .user-acceptance {
+   font-size: .9375rem;
+   margin-top: 20px;
+   margin-bottom: 20px
+ }
+
+ #summary {
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 60px;
+   padding-bottom: 20px
+ }
+
+ @media screen and (max-width:768px) {
+   #summary {
+     padding-top: 30px;
+     padding-bottom: 20px
+   }
+ }
+
+ .appointmentDetailsMain {
+   font-family: "Poppins";
+   font-size: 1rem;
+   min-width: 375px;
+   max-width: 1440px;
+   margin: 2rem auto;
+   padding-top: 1.5rem
+ }
+
+ .appointmentDetailsMain .info-panel {
+   padding: 0 2rem
+ }
+
+ .appointmentDetailsMain .info-panel .greeting-header .greeting-title {
+   font-weight: 700;
+   font-size: 1.5rem;
+   color: #25313e
+ }
+
+ .appointmentDetailsMain .info-panel .greeting-header .greeting-sub {
+   font-size: 1rem;
+   margin-top: .5rem
+ }
+
+ .appointmentDetailsMain .service-panel {
+   padding: 1rem 2rem
+ }
+
+ .appointmentDetailsMain .service-panel .header {
+   padding-top: 1rem
+ }
+
+ .appointmentDetailsMain .service-panel .header .title {
+   font-weight: 700;
+   font-size: 1.5rem;
+   color: #25313e
+ }
+
+ .appointmentDetailsMain .service-panel .header .actions {
+   margin-top: 1rem;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-justify-content: center;
+   justify-content: center
+ }
+
+ .appointmentDetailsMain .service-panel .header .actions .btn {
+   width: 50%
+ }
+
+ .appointmentDetailsMain .service-panel .header .actions .btn:first-of-type {
+   border-radius: 25px 0 0 25px
+ }
+
+ .appointmentDetailsMain .service-panel .header .actions .btn:nth-of-type(2) {
+   border-radius: 0 25px 25px 0
+ }
+
+ @media screen and (min-width:768px) {
+   .appointmentDetailsMain .service-panel .header {
+     display: -webkit-flex;
+     display: flex;
+     -webkit-justify-content: space-between;
+     justify-content: space-between;
+     -webkit-align-items: center;
+     align-items: center
+   }
+
+   .appointmentDetailsMain .service-panel .header .actions {
+     margin: 0
+   }
+
+   .appointmentDetailsMain .service-panel .header .actions .btn {
+     width: 150px
+   }
+ }
+
+ .appointmentDetailsMain .card {
+   padding: 1.5rem;
+   border-radius: .75rem;
+   margin: 1.5rem 0;
+   box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24)
+ }
+
+ .appointmentDetailsMain .card__customer {
+   background: #fff3f8
+ }
+
+ @media screen and (min-width:768px) and (max-width:1023px) {
+   .appointmentDetailsMain .card__customer {
+     display: -webkit-flex;
+     display: flex;
+     -webkit-justify-content: space-between;
+     justify-content: space-between
+   }
+ }
+
+ .appointmentDetailsMain .card__merchant .header {
+   padding: 0
+ }
+
+ .appointmentDetailsMain .card__merchant .header .business-thumb {
+   display: none;
+   background: #ececec;
+   width: 100px;
+   height: 100px;
+   overflow: hidden;
+   border-radius: 50%
+ }
+
+ .appointmentDetailsMain .card__merchant .header .business-thumb img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover
+ }
+
+ .appointmentDetailsMain .card__merchant .header .business-name {
+   margin-bottom: 0
+ }
+
+ @media screen and (min-width:768px) {
+   .appointmentDetailsMain .card__merchant {
+     display: -webkit-flex;
+     display: flex;
+     padding: 0
+   }
+
+   .appointmentDetailsMain .card__merchant .header {
+     width: 40%;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-flex-direction: column;
+     flex-direction: column;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -webkit-align-items: center;
+     align-items: center;
+     background: #fff3f8;
+     padding: 0 1.5rem;
+     text-align: center
+   }
+
+   .appointmentDetailsMain .card__merchant .business-thumb {
+     display: block !important
+   }
+
+   .appointmentDetailsMain .card__merchant .business-name>.info__label {
+     display: none
+   }
+
+   .appointmentDetailsMain .card__merchant .body {
+     padding: 1.5rem
+   }
+ }
+
+ @media screen and (min-width:1024px) {
+   .appointmentDetailsMain .card__merchant {
+     -webkit-flex-direction: column;
+     flex-direction: column
+   }
+
+   .appointmentDetailsMain .card__merchant .operation-hours {
+     display: block
+   }
+
+   .appointmentDetailsMain .card__merchant .header {
+     width: 100%;
+     padding: 1.5rem
+   }
+ }
+
+ .appointmentDetailsMain .card__appointment {
+   padding: 0
+ }
+
+ .appointmentDetailsMain .card__appointment .header {
+   padding: 1rem 1.5rem;
+   background: #fff3f8;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-justify-content: space-between;
+   justify-content: space-between
+ }
+
+ @media screen and (max-width:767px) {
+   .appointmentDetailsMain .card__appointment .header .lead {
+     font-size: 1rem
+   }
+ }
+
+ .appointmentDetailsMain .card__appointment .body {
+   padding: 1rem 1.5rem
+ }
+
+ .appointmentDetailsMain .card__appointment .body .service {
+   margin-bottom: 1.5rem
+ }
+
+ .appointmentDetailsMain .card__appointment .body .service__time {
+   margin-top: .5rem
+ }
+
+ @media screen and (min-width:700px) {
+   .appointmentDetailsMain .card__appointment .body .service__time {
+     margin: 0
+   }
+ }
+
+ .appointmentDetailsMain .card__appointment .body .service .highlight {
+   color: #4a90e2;
+   font-weight: 700;
+   font-size: .85rem
+ }
+
+ .appointmentDetailsMain .card__appointment .info__label {
+   text-transform: lowercase
+ }
+
+ .appointmentDetailsMain .card__appointment--main {
+   position: relative;
+   margin-bottom: 3rem
+ }
+
+ .appointmentDetailsMain .card__appointment--main:after {
+   content: " ";
+   height: 1px;
+   width: 100%;
+   border-bottom: 1px dashed #ebbbcf;
+   position: absolute;
+   bottom: -2rem
+ }
+
+ .appointmentDetailsMain .card__appointment--main .header {
+   background: #ebbbcf;
+   border-radius: 1rem 1rem 0 0
+ }
+
+ .appointmentDetailsMain .info {
+   margin: 1rem 0
+ }
+
+ .appointmentDetailsMain .info__label {
+   text-transform: uppercase;
+   font-size: .65rem;
+   letter-spacing: 1px;
+   font-weight: 700;
+   color: #4a90e2
+ }
+
+ .appointmentDetailsMain .info__value {
+   margin-top: .5rem
+ }
+
+ .appointmentDetailsMain .info__value a {
+   color: #25313e;
+   font-weight: 900
+ }
+
+ .appointmentDetailsMain .info__value.lead {
+   font-weight: 700;
+   color: #25313e;
+   font-size: 1.5rem
+ }
+
+ .appointmentDetailsMain .info__flex {
+   margin-top: .5rem
+ }
+
+ @media screen and (min-width:700px) {
+   .appointmentDetailsMain .info__flex {
+     display: -webkit-flex;
+     display: flex;
+     -webkit-justify-content: space-between;
+     justify-content: space-between
+   }
+ }
+
+ .appointmentDetailsMain .operation-hours {
+   display: none
+ }
+
+ .appointmentDetailsMain .btn {
+   border-radius: 25px;
+   padding: .75rem 2rem;
+   background: #fff3f8;
+   outline: none;
+   border: none;
+   cursor: pointer;
+   color: #25313e;
+   font-weight: 900;
+   text-transform: lowercase;
+   transition: .2s ease-in-out
+ }
+
+ .appointmentDetailsMain .btn.active,
+ .appointmentDetailsMain .btn:hover {
+   background: #ebbbcf;
+   color: #fff
+ }
+
+ .appointmentDetailsMain .btn.directions {
+   margin-top: 1rem;
+   background: #ebbbcf;
+   text-decoration: none;
+   color: #25313e;
+   display: inline-block;
+   font-weight: 400
+ }
+
+ .appointmentDetailsMain .btn.directions:hover {
+   background: #4a90e2;
+   color: #fff
+ }
+
+ .appointmentDetailsMain .header {
+   height: unset;
+   min-height: unset;
+   overflow: hidden
+ }
+
+ .appointmentDetailsMain .text-uppercase {
+   text-transform: uppercase
+ }
+
+ .appointmentDetailsMain .text-center {
+   text-align: center
+ }
+
+ .appointmentDetailsMain .no-data {
+   text-align: center;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   height: 300px;
+   font-weight: 600;
+   color: #25313e;
+   font-size: 1.5rem
+ }
+
+ @media screen and (min-width:1024px) {
+   .appointmentDetailsMain {
+     display: -webkit-flex;
+     display: flex
+   }
+
+   .appointmentDetailsMain .info-panel {
+     width: 40%;
+     padding: 0 0 0 2rem
+   }
+
+   .appointmentDetailsMain .info-panel .greeting-header {
+     display: none
+   }
+
+   .appointmentDetailsMain .service-panel {
+     -webkit-flex: 1 1;
+     flex: 1 1
+   }
+ }
